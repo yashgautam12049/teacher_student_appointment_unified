@@ -1,0 +1,9 @@
+{
+  "rules": {
+    ".read": "now < 1651399212",  // https://www.unixtimestamp.com/
+    ".write": "now < 1656583212",  // https://www.unixtimestamp.com/
+    "myAppointments": {
+      ".indexOn": ["date"]
+    }
+  }
+}
